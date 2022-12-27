@@ -32,7 +32,7 @@ document.querySelector('.check').addEventListener('click',function () {
 
 		if (score > highScore) {
 			highScore = score;
-			highScore = document.querySelector('.highScore').textContent;
+			document.querySelector('.highscore').textContent = highScore;
 		}
 
 							//		( OR )     //
